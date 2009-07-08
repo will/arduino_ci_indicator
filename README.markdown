@@ -21,8 +21,6 @@ ci_idicator.rb
 
 This is the code that gets compiled down to C and put on the arduino using [RAD]("http://rad.rubyforge.org/"). Rad uses some old version of ParseTree, so I had to put `gem "ParseTree", "2.2.0"` in the Rakefile to get it to use the old version. They might fix that sometime, but there you go.
 
----
-
 license
 -------
 (uiuc/ncsa open source license)
